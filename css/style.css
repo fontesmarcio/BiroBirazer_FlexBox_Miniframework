@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/** Classes especificas para o site de exemplo **/
+header.topo-site {
+	padding: 20px 0;
+}
+
+.logo {
+	font-size: 22px;
+	font-family: Verdana;
+}
+
+header.topo-site ul li {
+	position: relative;
+	top: 4px;
+	padding: 0 20px;
+	font-size: 17px;
+	display: inline-block;
+}
+
+.slider p {
+	font-size: 23px;
+	color: white;
+	display: inline-block;
+	border-bottom: 4px solid white;
+}

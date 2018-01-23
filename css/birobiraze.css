@@ -1,0 +1,121 @@
+/*  Classes gerais - Framework BiroBiraze*/
+
+/* Text Colors */
+.text-white {
+	color: white;
+}
+
+.text-black {
+	color: black;
+}
+
+.text-green {
+	color: green;
+}
+
+.text-red {
+	color: red;
+}
+
+.text-blue {
+	color: blue;
+}
+
+.text-yellow {
+	color: yellow;
+}
+
+/* Background-colors */
+.gold {
+	background-color: gold;
+}
+
+.light-blue {
+	background-color: #00A3D9;
+}
+
+.light-green {
+	background-color: #00FFBB;
+}
+
+.light-red {
+	background-color: #fb5768;
+}
+
+/* Sections, texts */
+.container {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+	max-width: 960px;
+	padding: 0 2%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w33 {
+	width: 33.3%;
+}
+
+.w25 {
+	width: 25%;
+}
+
+.no-decoration {
+	text-decoration: none;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.padding-top-bottom10 {
+	padding: 10px 0;
+}
+
+.padding-top-bottom20 {
+	padding: 20px 0;
+}
+
+.padding-top-bottom30 {
+	padding: 30px 0;
+}
+
+.padding-top-bottom40 {
+	padding: 40px 0;
+}
+
+.padding-top-bottom50 {
+	padding: 50px 0;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+	.w50, .w33 {
+		width: 100%;
+	}
+
+	.left, .right,.center {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+}
+
